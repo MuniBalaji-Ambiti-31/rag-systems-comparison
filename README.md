@@ -198,6 +198,14 @@ This experiment isolates FAISS-based similarity search to validate embedding qua
 - LlamaIndex
 - FAISS (vector similarity search)
 
+## License
+
+This project is released under an **Academic & Portfolio Reference License**.
+
+You are free to view and study the code for personal or evaluation purposes.
+Reuse, redistribution, modification, or publication of this code requires
+explicit written permission from the author.
+
 ---
 
 This project is intended as a **systems-level exploration of Retrieval-Augmented Generation**, emphasizing architectural decisions and implementation clarity over raw benchmark performance.

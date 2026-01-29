@@ -1,0 +1,22 @@
+# Core
+python-dotenv>=1.0.0
+
+# Hugging Face / Models
+transformers>=4.39.0
+torch>=2.0.0
+accelerate>=0.27.0
+sentence-transformers>=2.2.2
+
+# LangChain stack (Phi-3 pipeline)
+langchain>=0.1.14
+langchain-community>=0.0.30
+langchain-huggingface>=0.0.7
+
+# LlamaIndex stack (Llama-3 pipeline)
+llama-index>=0.10.20
+
+# Vector search
+faiss-cpu>=1.7.4
+
+# Document loading
+pypdf>=4.0.0

@@ -1,0 +1,70 @@
+[11:18:25] → Loading Phi-3 on CUDA …
+[11:18:30] ✅ Model loaded
+[11:18:30] → Loading embeddings: sentence-transformers/all-mpnet-base-v2
+[11:18:31] ✅ Embeddings ready
+[11:18:31] → Building/Loading index …
+[11:18:31] ✅ Index ready
+[11:18:31] ✅ QA chain ready
+
+[11:18:35] 
+Q: Describe the computer vision course at university of Bridgeport
+[11:19:48] → Loading Phi-3 on CPU …
+[11:19:50] ✅ Model loaded
+[11:19:50] → Loading embeddings: sentence-transformers/all-mpnet-base-v2
+[11:19:51] ✅ Embeddings ready
+[11:19:51] → Building/Loading index …
+[11:19:51] ✅ Index ready
+[11:19:51] ✅ QA chain ready
+
+[11:20:00] 
+Q: Describe the computer vision course at university of Bridgeport
+[11:22:17] → Loading Phi-3 on CUDA …
+[11:22:22] ✅ Model loaded
+[11:22:22] → Loading embeddings: sentence-transformers/all-mpnet-base-v2
+[11:22:23] ✅ Embeddings ready
+[11:22:23] → Building/Loading index …
+[11:22:23] ⚠️ 💥 Fatal error during setup
+Traceback (most recent call last):
+  File "C:\Users\jakovi\Desktop\RAGPhi3_Balaji\RAGPhi3_Balaji.py", line 136, in main
+    vectordb, retriever = build_vectorstore(PDF_URL, PERSIST_DIR, embeddings)
+  File "C:\Users\jakovi\Desktop\RAGPhi3_Balaji\RAGPhi3_Balaji.py", line 58, in build_vectorstore
+    vs = Chroma(
+  File "C:\Users\jakovi\AppData\Roaming\Python\Python310\site-packages\langchain_chroma\vectorstores.py", line 370, in __init__
+    self._client = chromadb.PersistentClient(
+  File "C:\Users\jakovi\AppData\Roaming\Python\Python310\site-packages\chromadb\__init__.py", line 157, in PersistentClient
+    settings.persist_directory = str(path)
+AttributeError: 'dict' object has no attribute 'persist_directory'
+
+[11:24:35] → Loading Phi-3 on CUDA …
+[11:24:41] ✅ Model loaded
+[11:24:41] → Loading embeddings: sentence-transformers/all-mpnet-base-v2
+[11:24:42] ✅ Embeddings ready
+[11:24:42] → Building/Loading index …
+[11:24:42] ✅ Index ready
+[11:24:42] ✅ QA chain ready
+
+[11:28:23] → Downloading catalog to ub_catalog.pdf …
+[11:28:25] ✅ PDF downloaded
+[11:28:31] ↻ Rebuilding Chroma index …
+[11:34:30] → Loading Phi-3 on CUDA …
+[11:34:34] ✅ Model loaded
+[11:34:34] → Loading embeddings: sentence-transformers/all-mpnet-base-v2
+[11:34:35] ✅ Embeddings ready
+[11:34:35] → Building/Loading index …
+[11:34:35] ✅ Index ready
+[11:34:35] ✅ QA chain ready
+
+[11:39:01] Pages loaded: 679
+[11:39:02] Chunks created: 2581 (size=1000, overlap=200)
+[11:42:10] Pages loaded: 679
+[11:42:10] Chunks created: 2581 (size=1000, overlap=200)
+[11:45:18] Pages loaded: 679
+[11:45:18] Chunks created: 2581 (size=1000, overlap=200)
+[07:41:28] Pages loaded: 679
+[07:41:28] Chunks created: 2581 (size=1000, overlap=200)
+[11:05:58] Pages loaded: 679
+[11:05:58] Chunks created: 2581 (size=1000, overlap=200)
+[11:24:19] Pages loaded: 679
+[11:24:19] Chunks created: 2581 (size=1000, overlap=200)
+[11:53:27] Pages loaded: 679
+[11:53:27] Chunks created: 2581 (size=1000, overlap=200)

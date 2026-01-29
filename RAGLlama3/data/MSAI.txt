@@ -1,0 +1,33 @@
+University of Bridgeport offers an MS in AI. It is a top rated program with four specializations.
+The specializations include: Robotics and Automation, Deep learning and computer vision, data sciences, and cyber security.
+The program requires 34 credits to complete. This means ten 3 credit courses, an MS project and a one credit seminar.
+At UB, as part of MS in AI, you will practice your skills in robotics at the Interdisciplinary Robotics, Intelligent Sensing, and Control (RISC) Laboratory, our 3D manufacturing facility for robotic manipulators, autonomous robots and sensory interpreters, and unmanned aerial vehicles and drones. You’ll develop commercially applicable projects in conjunction with our expert faculty and gain practical experience that will benefit you in your career.
+Master’s in AI courses will address the increasing role of artificial intelligence in nearly all aspects of human life, including health care, medical diagnosis, new drug discovery, business intelligence, data analytics, customer behavior prediction, robotics in manufacturing and human assistance, autonomous vehicles, including drones and self-driving cars, and beyond. The Artificial Intelligence program requires students to complete a total of 34 credit hours prior to graduation. Students may select one or more areas of specialization, in which case, the student will need to take at least three courses in each area(s) selected.
+
+Robotics and Automation courses
+CPSC 460	Introduction to Robotics
+CPSC 461	Advanced Robotics
+CPEG 585	Computer Vision
+CPEG 588	Introduction to Autonomous Vehicles
+
+Deep Learning and Computer Vision courses
+CPEG 585	Computer Vision
+CPEG 586	Deep Learning
+CPEG 588	Autonomous Vehicles
+CPEG 686	Advanced AI and Deep Learning
+
+Data Sciences and Data Analytics courses
+CPSC 552	Data Mining
+CPSC 651	Big Data Systems & Analysis
+CPSC 652	Hadoop and NoSql
+CPSC 570	Advanced Robotics
+
+Cybersecurity courses
+CPEG 561	Network Security
+CPSC 563	Applications Security
+CPSC 568	Cryptography
+CPSC 571	Internet Computing
+
+Core courses
+CPEG 585	Computer Vision
+CPSC 442	Python for Data Sciences

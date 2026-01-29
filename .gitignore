@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+
+# IDE
+.vs/
+.vscode/
+*.sln
+*.pyproj
+*.user
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vector DB / generated artifacts
+*.sqlite3
+*.bin
+chroma.sqlite3
+mydb_index*/
